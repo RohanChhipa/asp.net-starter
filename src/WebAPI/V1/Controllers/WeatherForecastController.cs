@@ -15,7 +15,7 @@ public class WeatherForecastController : ControllerBase
         _weatherForecastService = weatherForecastService;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
+    [HttpGet]
     public IEnumerable<WeatherForecastDto> Get()
     {
         return _weatherForecastService.GetWeatherForecast();

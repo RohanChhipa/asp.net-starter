@@ -1,6 +1,6 @@
 namespace Domain.Dtos;
 
-public record WeatherForecastDto 
+public record WeatherForecastDto
 (
     DateTime Date,
     int TemperatureC,

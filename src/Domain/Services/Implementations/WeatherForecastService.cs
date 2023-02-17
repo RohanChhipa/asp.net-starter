@@ -6,7 +6,8 @@ namespace Domain.Services.Implementations;
 
 public class WeatherForecastService : IWeatherForecastService
 {
-    private static readonly string[] Summaries = {
+    private static readonly string[] Summaries =
+    {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
