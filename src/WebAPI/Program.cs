@@ -1,10 +1,14 @@
+using Domain.Repositories;
 using Domain.Services.Implementations;
 using Domain.Services.Interfaces;
+using Infrastructure.Repositories.Reqres;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<IWeatherForecastService, WeatherForecastService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, ReqresUserRepository>();
 
 builder.Services.AddControllers();
 

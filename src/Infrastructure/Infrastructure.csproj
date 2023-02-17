@@ -10,4 +10,8 @@
       <ProjectReference Include="..\Domain\Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Flurl.Http" Version="3.2.4" />
+    </ItemGroup>
+
 </Project>
