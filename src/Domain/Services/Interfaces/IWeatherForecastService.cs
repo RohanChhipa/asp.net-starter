@@ -4,5 +4,5 @@ namespace Domain.Services.Interfaces;
 
 public interface IWeatherForecastService
 {
-    IEnumerable<WeatherForecastDto> GetWeatherForecast();
+    Task<IEnumerable<WeatherForecastDto>> GetWeatherForecastAsync(CancellationToken cancellationToken);
 }

@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Infrastructure.Repositories.Reqres.Models;
+namespace Infrastructure.Reqres.Models;
 
 public class ReqresResponse
 {

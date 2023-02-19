@@ -14,10 +14,10 @@ public class WeatherForecastController : ControllerBase
     {
         _weatherForecastService = weatherForecastService;
     }
-
+    
     [HttpGet]
-    public IEnumerable<WeatherForecastDto> Get()
+    public Task<IEnumerable<WeatherForecastDto>> Get(CancellationToken cancellationToken)
     {
-        return _weatherForecastService.GetWeatherForecast();
+        return _weatherForecastService.GetWeatherForecastAsync(cancellationToken);
     }
 }

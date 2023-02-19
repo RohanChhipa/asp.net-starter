@@ -1,9 +1,9 @@
 using Domain.Models;
 using Domain.Repositories;
 using Flurl.Http;
-using Infrastructure.Repositories.Reqres.Models;
+using Infrastructure.Reqres.Models;
 
-namespace Infrastructure.Repositories.Reqres;
+namespace Infrastructure.Reqres;
 
 public class ReqresUserRepository : IUserRepository
 {

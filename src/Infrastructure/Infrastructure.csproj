@@ -11,7 +11,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
       <PackageReference Include="Flurl.Http" Version="3.2.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.3" />
     </ItemGroup>
 
 </Project>
