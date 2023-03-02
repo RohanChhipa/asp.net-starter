@@ -59,6 +59,7 @@ In no specific order of priority, future additions include:
 - Docker support
 - Kubernetes support
 - Mapping `appsettings` to a domain model
+- Build pipeline using Github Actions
 
 ## License
 
