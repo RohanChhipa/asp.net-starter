@@ -60,6 +60,7 @@ In no specific order of priority, future additions include:
 - Kubernetes support
 - Mapping `appsettings` to a domain model
 - Build pipeline using Github Actions
+- Unit test examples 
 
 ## License
 
