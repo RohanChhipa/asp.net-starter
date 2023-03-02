@@ -58,6 +58,7 @@ In no specific order of priority, future additions include:
 - Logging examples using Serilog
 - Docker support
 - Kubernetes support
+- Mapping `appsettings` to a domain model
 
 ## License
 
